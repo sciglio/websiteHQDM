@@ -13,16 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "SQS Lab"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
-    type: person # person | organization | local_business
+    type: organization # person | organization | local_business
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "SQS Lab develops superconducting quantum devices for microwave quantum optics, waveguide QED, quantum-limited measurement, and hybrid optomechanics at the University of Sherbrooke."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
@@ -38,7 +37,7 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: "#1e3a5f" # This is a deep, professional academic navy" 
       secondary: ""
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
@@ -89,9 +88,9 @@ hugoblox:
     align: center # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_toggle: False
+    theme_picker: False
+    language_switcher: True
     # Call-to-action button
     cta:
       enable: false

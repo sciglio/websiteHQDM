@@ -1,1 +1,433 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<style>
+  .page-body .max-w-prose {
+    max-width: min(1120px, calc(100vw - 3rem)) !important;
+  }
+
+  .page-body article.prose {
+    max-width: 100% !important;
+  }
+
+  /* Force left alignment for all landing page sections */
+  .page-body .home-section {
+    text-align: left !important;
+    padding-left: 0 !important;
+  }
+
+  .page-body .home-section .container {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    max-width: 100% !important;
+  }
+
+  /* Specific fix for hero block layout in Hugo Blox */
+  .page-body #section-hero .flex-1,
+  .page-body #section-hero .flex-col,
+  .page-body #section-hero .flex {
+    align-items: flex-start !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    max-width: min(700px, 95vw) !important;
+    padding-left: 0 !important;
+  }
+
+  .page-body #section-hero h1,
+  .page-body #section-hero p,
+  .page-body #section-hero .cta-btns {
+    text-align: left !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .page-body > #section-hero:first-child {
+    min-height: clamp(460px, 58vh, 680px);
+    overflow: hidden;
+  }
+
+  .sherbrooke-green,
+  .sherbrooke-green * {
+    color: rgb(1, 136, 73) !important;
+  }
+
+  /* Robust styling for "Join Us" links across all languages */
+  a[href$="/openings/"],
+  a[href$="/openings"],
+  a[href$="/fr/openings/"],
+  a[href$="/fr/openings"],
+  a[href$="/it/openings/"],
+  a[href$="/it/openings"],
+  a[href*="/openings/"],
+  .join-us-highlight {
+    color: rgb(1, 136, 73) !important;
+    font-weight: bold !important;
+  }
+
+  /* Specific fix for Navbar items in Hugo Blox */
+  .navbar-nav a[href*="openings"] span,
+  .navbar-nav a[href*="openings"],
+  .nav-link[href*="openings"],
+  .nav-item a[href*="openings"] {
+    color: rgb(1, 136, 73) !important;
+    font-weight: bold !important;
+  }
+
+  .page-body > #section-hero:first-child::before {
+    animation: sqs-hero-images 36s infinite;
+    background-image: url("/JJ_AirBridge.png");
+    background-position: center;
+    background-size: cover;
+    content: "";
+    inset: 0;
+    opacity: 1;
+    position: absolute;
+    z-index: -2;
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,1) 100%);
+    mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,1) 100%);
+  }
+
+  .page-body > #section-hero:first-child .home-section-bg {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.98) 10%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0) 100%) !important;
+    backdrop-filter: saturate(120%) blur(1px);
+    z-index: -1;
+  }
+
+  @keyframes sqs-hero-images {
+    0%, 15% {
+      background-image: url("/JJ_AirBridge.png");
+    }
+    16%, 31% {
+      background-image: url("/fluxonium_color.png");
+    }
+    32%, 47% {
+      background-image: url("/Collective_16_9.png");
+    }
+    48%, 63% {
+      background-image: url("/TWPA_manychips.png");
+    }
+    64%, 79% {
+      background-image: url("/SQUID.png");
+    }
+    80%, 95% {
+      background-image: url("/Flip_chip.png");
+    }
+    100% {
+      background-image: url("/JJ_AirBridge.png");
+    }
+  }
+
+  .people-pi {
+    display: grid;
+    grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .people-pi__photo {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center 18%;
+    border-radius: 8px;
+  }
+
+  .people-pi__icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.55rem;
+    margin-top: 0.85rem;
+    flex-wrap: wrap;
+  }
+
+  .people-pi__icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid #d1d5db;
+    color: var(--hb-color-foreground);
+    background: transparent;
+    text-decoration: none !important;
+    transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+    flex-shrink: 0;
+  }
+
+  .people-pi__icon-btn:hover {
+    background-color: var(--color-primary-500);
+    border-color: var(--color-primary-500);
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  .dark .people-pi__icon-btn {
+    border-color: #4b5563;
+  }
+
+  .pi-subtitle {
+    display: block;
+    font-size: 0.8rem !important;
+    font-weight: 400 !important;
+    color: #6b7280 !important;
+    font-style: normal !important;
+    margin: 0.1rem 0 0.8rem 0 !important;
+    line-height: 1.4 !important;
+  }
+
+  .dark .pi-subtitle {
+    color: #9ca3af !important;
+  }
+
+  @media (max-width: 760px) {
+    .page-body .max-w-prose {
+      max-width: calc(100vw - 2rem) !important;
+    }
+
+    .people-pi {
+      grid-template-columns: 1fr;
+    }
+
+    .people-pi__photo {
+      max-width: 320px;
+    }
+
+    .contact-cards {
+      grid-template-columns: 1fr;
+    }
+
+    .contact-info {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* ── Contact page ── */
+  .contact-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0 3rem;
+  }
+
+  .contact-card {
+    border: 1px solid #e5e7eb;
+    border-radius: var(--hb-radius, 0.5rem);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dark .contact-card {
+    border-color: #374151;
+  }
+
+  .contact-card h3 {
+    margin: 0 0 0.75rem 0 !important;
+    font-size: 1.05rem !important;
+    font-weight: 600 !important;
+    font-family: var(--hb-font-heading);
+    color: var(--hb-color-foreground);
+  }
+
+  .contact-card p {
+    flex: 1;
+    color: #6b7280;
+    margin: 0 0 1.25rem 0 !important;
+    font-size: 0.9rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .dark .contact-card p {
+    color: #9ca3af;
+  }
+
+  .contact-card a {
+    color: var(--color-primary-500);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
+  .contact-card a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-info h3 {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    margin: 0 0 0.75rem 0 !important;
+    font-family: var(--hb-font-heading);
+    color: var(--hb-color-foreground);
+  }
+
+  .contact-info address {
+    font-style: normal;
+    line-height: 1.85;
+    margin: 0 0 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  .contact-info ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .contact-info li {
+    margin-bottom: 0.6rem;
+    padding-left: 0 !important;
+  }
+
+  .contact-info li::before {
+    display: none !important;
+  }
+
+  .contact-info a {
+    color: var(--color-primary-500);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-footer-note {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 1.25rem;
+    font-size: 0.875rem !important;
+    color: #6b7280 !important;
+    font-style: italic !important;
+    margin: 0 !important;
+  }
+
+  .dark .contact-footer-note {
+    border-top-color: #374151;
+    color: #9ca3af !important;
+  }
+
+  /* ── Join Us page ── */
+  .open-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 0.22em 0.7em;
+    border-radius: 9999px;
+    background-color: rgb(1, 136, 73);
+    color: #fff !important;
+    vertical-align: middle;
+    margin-left: 0.55rem;
+    line-height: 1;
+    position: relative;
+    top: -0.1em;
+  }
+
+  .apply-cta-btn {
+    display: inline-block;
+    margin-top: 1.25rem;
+    padding: 0.7rem 1.75rem;
+    background-color: rgb(1, 136, 73);
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: var(--hb-radius, 0.5rem);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.4;
+    transition: background-color 0.15s;
+  }
+
+  .apply-cta-btn:hover {
+    background-color: rgb(1, 110, 59);
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  /* ── Homepage research cards ── */
+  /* Allow the prose wrapper inside home sections to fill its flex parent */
+  .page-body .home-section div.prose {
+    width: 100%;
+  }
+
+  .research-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 0.25rem 0 1.5rem;
+    width: 100%;
+  }
+
+  .research-card {
+    border: 1px solid #e5e7eb;
+    border-radius: var(--hb-radius, 0.5rem);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dark .research-card {
+    border-color: #374151;
+  }
+
+  .research-card__img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .research-card__body {
+    padding: 1rem 1.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .research-card__title {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    font-family: var(--hb-font-heading);
+    margin: 0 0 0.45rem 0 !important;
+    color: var(--hb-color-foreground) !important;
+  }
+
+  .research-card__desc {
+    font-size: 0.875rem !important;
+    color: #6b7280 !important;
+    line-height: 1.6 !important;
+    margin: 0 0 1rem 0 !important;
+    flex: 1;
+  }
+
+  .dark .research-card__desc {
+    color: #9ca3af !important;
+  }
+
+  .research-card__link {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    color: var(--color-primary-500) !important;
+    text-decoration: none !important;
+  }
+
+  .research-card__link:hover {
+    text-decoration: underline !important;
+  }
+
+  @media (max-width: 760px) {
+    .research-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

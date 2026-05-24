@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{/* Suppress the auto-generated co-author tag cloud; render only page content */}}
+<div data-pagefind-ignore>
+
+<div class="max-w-prose mx-auto flex justify-start">
+  <article class="prose prose-slate lg:prose-xl dark:prose-invert max-w-none">
+    <h1 class="lg:text-6xl !mb-4">{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+</div>
+
+</div>
+
+{{- end -}}

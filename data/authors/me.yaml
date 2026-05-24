@@ -2,115 +2,103 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Prof. Marco Scigliuzzo
+  given: Marco
+  family: Scigliuzzo
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  pronouns: ''
 postnominals:
   - PhD
-  - MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🔬"
+role: Assistant Professor and Chair in Development of Quantum Technologies
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Marco Scigliuzzo is Assistant Professor at the University of Sherbrooke,
+  where he holds the Chair in Development of Quantum Technologies. His
+  research explores superconducting quantum circuits, quantum acoustics,
+  circuit optomechanics, and engineered microwave environments for quantum
+  optics.
+
+  His work has contributed to the control of photonic and phononic degrees of
+  freedom at the quantum level, high-coherence superconducting devices,
+  quantum acoustics with tunable nonlinearity, and collective quantum motion
+  in mechanical resonator arrays.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Sherbrooke
+    url: https://www.usherbrooke.ca/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: mailto:marco.scigliuzzo@usherbrooke.ca
+    label: E-mail
+  - icon: hero/globe-alt
+    url: https://scigliuzzo.netlify.app
+    label: Website
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Superconducting quantum circuits
+  - Quantum acoustics
+  - Waveguide QED
+  - Circuit optomechanics
+  - High-coherence quantum devices
+  - Quantum-limited measurement
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD in Quantum Optics
+    institution: Chalmers University of Technology
+    end: 2021-09-03
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Thesis: Effects of the environment on quantum systems. Supervisor: Per Delsing.
+  - degree: MSc in Physics
+    institution: University of Salento
+    end: 2016-02-22
+    summary: |
+      Graduated 110/110 Magna cum Laude. Thesis on optimization of SAW filters and resonators.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Assistant Professor and Chair in Development of Quantum Technologies
+    org: University of Sherbrooke
+    start: 2026-04-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Leading SQS Lab in the Department of Electrical and Computer Engineering.
+  - role: Postdoctoral Researcher
+    org: EPFL
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Developed superconducting quantum devices spanning circuit optomechanics,
+      high-kinetic-inductance materials, quantum acoustics, and quantum-limited
+      microwave measurement.
 
 skills:
-  - name: Technical Skills
+  - name: Experimental platforms
     items:
-      - label: Python
+      - label: Superconducting circuits
         level: 5
-      - label: Machine Learning
+      - label: Cryogenic microwave measurement
         level: 5
-      - label: Cloud Computing
+      - label: Nanofabrication
         level: 4
-  - name: Research & Communication
+  - name: Research themes
     items:
-      - label: Academic Writing
+      - label: Quantum acoustics
         level: 5
-      - label: Conference Presentations
+      - label: Waveguide QED
+        level: 5
+      - label: Circuit optomechanics
         level: 4
-      - label: Grant Proposals
+      - label: Quantum-limited amplification
         level: 4
 
 languages:
-  - name: English
+  - name: Italian
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
+    level: 5
+    label: Working language
+  - name: French
     level: 4
-    label: Fluent
+    label: Working language
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+awards: []
