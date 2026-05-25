@@ -34,7 +34,7 @@ sections:
           </div>
           <div class="research-card">
             <img src="/projects/hybrid-optomechanics/featured.png" alt="Hybrid Optomechanics" class="research-card__img">
-            <p class="research-card__caption">Electromechanical Examer</p>
+            <p class="research-card__caption">Electromechanical Hexamer</p>
             <div class="research-card__body">
               <h3 class="research-card__title">Hybrid Optomechanics</h3>
               <p class="research-card__desc">Controlling mechanical motion at the quantum level using superconducting circuits and collective effects.</p>

@@ -25,7 +25,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-projects: ['circuits-quantiques-supraconducteurs']
+projects: ['superconducting-quantum-circuits']
 slides: ""
 ---
 

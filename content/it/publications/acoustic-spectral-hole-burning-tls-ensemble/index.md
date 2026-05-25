@@ -24,7 +24,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-projects: ['optomeccanica-ibrida']
+projects: ['hybrid-optomechanics']
 slides: ""
 ---
 

@@ -29,7 +29,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-projects: ['qed-in-guida-donda']
+projects: ['waveguide-qed']
 slides: ""
 ---
 
