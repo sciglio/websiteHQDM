@@ -32,6 +32,14 @@ Scopri ricercatori, studenti, studentesse e collaboratori del Laboratorio SQS.
     <span class="pi-subtitle"><strong>Cattedra di Sviluppo delle Tecnologie Quantistiche </strong>| Institut Quantique &amp; Faculté de génie, Università di Sherbrooke</span></p>
     <p>La sua ricerca riguarda sistemi quantistici superconduttivi, circuit QED, acustica quantistica, dispositivi superconduttivi ad alta coerenza e optomeccanica di circuito.</p>
     <p>Prima di unirsi all'<span class="sherbrooke-green">Università di Sherbrooke</span>, Marco ha completato un dottorato in ottica quantistica all'<a href="https://www.chalmers.se" target="_blank" rel="noopener">Università di tecnologia Chalmers</a> con <a href="https://www.chalmers.se/en/persons/delsing/" target="_blank" rel="noopener">Per Delsing</a> e ha svolto ricerca post-dottorale all'<a href="https://www.epfl.ch" target="_blank" rel="noopener">EPFL</a>, lavorando su circuiti superconduttivi, acustica quantistica, materiali ad alta induttanza cinetica e misure a microonde al limite quantistico.</p>
+    <div style="display:flex; flex-wrap:wrap; gap:0.6rem; margin-top:1.25rem;">
+    <a href="/uploads/Scigliuzzo_Marco_CV_v20260525.pdf" target="_blank" rel="noopener" class="apply-cta-btn" 
+  style="margin-top:0; font-size:0.875rem; padding:0.5rem 1.1rem;">Scarica il CV</a>
+    <a href="/uploads/phd_scigliuzzo.pdf" target="_blank" rel="noopener" class="apply-cta-btn" style="margin-top:0; 
+  font-size:0.875rem; padding:0.5rem 1.1rem;">Scarica la tesi di dottorato</a>
+    <a href="/uploads/master_scigliuzzo.pdf" target="_blank" rel="noopener" class="apply-cta-btn" style="margin-top:0;
+   font-size:0.875rem; padding:0.5rem 1.1rem;">Scarica la tesi di Master</a>
+  </div>
   </div>
 </div>
 

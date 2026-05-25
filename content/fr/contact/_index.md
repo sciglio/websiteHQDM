@@ -4,7 +4,7 @@ title: "Contact"
 
 <div class="contact-cards">
   <div class="contact-card">
-    <h3>Étudiants prospectifs</h3>
+    <h3>Étudiants et Postdoc</h3>
     <p>Intéressé à rejoindre le Laboratoire SQS pour un doctorat ou un postdoctorat ? Envoyez-nous une brève présentation de vos intérêts de recherche et votre CV.</p>
     <a href="mailto:marco.scigliuzzo@usherbrooke.ca?subject=Demande%20d%27étudiant%20prospectif">Nous écrire →</a>
   </div>
@@ -19,6 +19,11 @@ title: "Contact"
     <a href="mailto:marco.scigliuzzo@usherbrooke.ca?subject=Demande%20des%20médias">Nous écrire →</a>
   </div>
 </div>
+
+<figure style="margin: 2rem 0;">
+  <img src="/Sherbrooke_University_Campus_Copyright_Sherbrooke_Uni.jpg" alt="Campus de l'Université de Sherbrooke" style="width:100%; border-radius:8px; display:block;">
+  <figcaption style="font-size:0.75rem; color:#6b7280; margin-top:0.4rem;">© Université de Sherbrooke</figcaption>
+</figure>
 
 <div class="contact-info">
   <div>

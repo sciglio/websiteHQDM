@@ -26,6 +26,7 @@ sections:
         <div class="research-cards">
           <div class="research-card">
             <img src="/projects/superconducting-quantum-circuits/featured.png" alt="Circuiti superconduttivi" class="research-card__img">
+            <p class="research-card__caption">Qubit: Fluxonium</p>
             <div class="research-card__body">
               <h3 class="research-card__title">Circuiti superconduttivi</h3>
               <p class="research-card__desc">Progettazione di dispositivi superconduttivi ad alta coerenza e qubit per l'informazione e la rivelazione quantistica.</p>
@@ -34,6 +35,7 @@ sections:
           </div>
           <div class="research-card">
             <img src="/projects/hybrid-optomechanics/featured.png" alt="Optomeccanica ibrida" class="research-card__img">
+            <p class="research-card__caption">Electromechanical Examer</p>
             <div class="research-card__body">
               <h3 class="research-card__title">Optomeccanica ibrida</h3>
               <p class="research-card__desc">Controllo del moto meccanico a livello quantistico con circuiti superconduttivi ed effetti collettivi.</p>
@@ -42,6 +44,7 @@ sections:
           </div>
           <div class="research-card">
             <img src="/projects/waveguide-qed/featured.png" alt="QED in guida d'onda" class="research-card__img">
+            <p class="research-card__caption">TWPA implemented by 2000 JJ transmission line</p>
             <div class="research-card__body">
               <h3 class="research-card__title">QED in guida d'onda</h3>
               <p class="research-card__desc">Modulazione dell'interazione luce-materia in guide d'onda superconduttive per amplificazione al limite quantistico e manipolazione di fotoni.</p>

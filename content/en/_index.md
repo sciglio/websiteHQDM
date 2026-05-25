@@ -25,6 +25,7 @@ sections:
         <div class="research-cards">
           <div class="research-card">
             <img src="/projects/superconducting-quantum-circuits/featured.png" alt="Superconducting Circuits" class="research-card__img">
+            <p class="research-card__caption">Qubit: Fluxonium</p>
             <div class="research-card__body">
               <h3 class="research-card__title">Superconducting Circuits</h3>
               <p class="research-card__desc">Engineering high-coherence superconducting devices and qubits for quantum information and sensing.</p>
@@ -33,6 +34,7 @@ sections:
           </div>
           <div class="research-card">
             <img src="/projects/hybrid-optomechanics/featured.png" alt="Hybrid Optomechanics" class="research-card__img">
+            <p class="research-card__caption">Electromechanical Examer</p>
             <div class="research-card__body">
               <h3 class="research-card__title">Hybrid Optomechanics</h3>
               <p class="research-card__desc">Controlling mechanical motion at the quantum level using superconducting circuits and collective effects.</p>
@@ -41,6 +43,7 @@ sections:
           </div>
           <div class="research-card">
             <img src="/projects/waveguide-qed/featured.png" alt="Waveguide QED" class="research-card__img">
+            <p class="research-card__caption">TWPA implemented by 2000 JJ transmission line</p>
             <div class="research-card__body">
               <h3 class="research-card__title">Waveguide QED</h3>
               <p class="research-card__desc">Shaping light-matter interaction in superconducting waveguides for quantum-limited amplification and photon manipulation.</p>

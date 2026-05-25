@@ -32,6 +32,14 @@ Découvrez les membres, étudiantes, étudiants et collaborateurs du Laboratoire
     <span class="pi-subtitle"><strong>Chaire en développement des technologies quantiques</strong> | Institut Quantique &amp; Faculté de génie, Université de Sherbrooke</span></p>
     <p>Ses recherches portent sur les systèmes quantiques supraconducteurs, la QED de circuit, l'acoustique quantique, les dispositifs supraconducteurs à haute cohérence et l'optomécanique de circuit.</p>
     <p>Avant de rejoindre l'<span class="sherbrooke-green">Université de Sherbrooke</span>, Marco a effectué son doctorat en optique quantique à l'<a href="https://www.chalmers.se" target="_blank" rel="noopener">Université de technologie Chalmers</a> sous la direction de <a href="https://www.chalmers.se/en/persons/delsing/" target="_blank" rel="noopener">Per Delsing</a>, puis un postdoctorat à l'<a href="https://www.epfl.ch" target="_blank" rel="noopener">EPFL</a>, travaillant sur les circuits supraconducteurs, l'acoustique quantique, les matériaux à haute inductance cinétique et la mesure micro-onde à la limite quantique.</p>
+          <div style="display:flex; flex-wrap:wrap; gap:0.6rem; margin-top:1.25rem;">
+    <a href="/uploads/Scigliuzzo_Marco_CV_v20260525.pdf" target="_blank" rel="noopener" class="apply-cta-btn" 
+  style="margin-top:0; font-size:0.875rem; padding:0.5rem 1.1rem;">Télécharger le CV</a>
+    <a href="/uploads/phd_scigliuzzo.pdf" target="_blank" rel="noopener" class="apply-cta-btn" style="margin-top:0; 
+  font-size:0.875rem; padding:0.5rem 1.1rem;">Télécharger la thèse de doctorat</a>
+    <a href="/uploads/master_scigliuzzo.pdf" target="_blank" rel="noopener" class="apply-cta-btn" style="margin-top:0;
+   font-size:0.875rem; padding:0.5rem 1.1rem;">Télécharger la thèse de Master</a>
+  </div>
   </div>
 </div>
 

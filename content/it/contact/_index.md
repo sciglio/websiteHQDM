@@ -4,7 +4,7 @@ title: "Contatti"
 
 <div class="contact-cards">
   <div class="contact-card">
-    <h3>Studenti prospettici</h3>
+    <h3>Studenti e postdoc</h3>
     <p>Interessato a entrare nel Laboratorio SQS per un dottorato o un postdottorato? Invia una breve descrizione dei tuoi interessi di ricerca e il tuo CV.</p>
     <a href="mailto:marco.scigliuzzo@usherbrooke.ca?subject=Richiesta%20studente%20prospettico">Scrivici →</a>
   </div>
@@ -19,6 +19,11 @@ title: "Contatti"
     <a href="mailto:marco.scigliuzzo@usherbrooke.ca?subject=Richiesta%20media">Scrivici →</a>
   </div>
 </div>
+
+<figure style="margin: 2rem 0;">
+  <img src="/Sherbrooke_University_Campus_Copyright_Sherbrooke_Uni.jpg" alt="Campus dell'Università di Sherbrooke" style="width:100%; border-radius:8px; display:block;">
+  <figcaption style="font-size:0.75rem; color:#6b7280; margin-top:0.4rem;">© Università di Sherbrooke</figcaption>
+</figure>
 
 <div class="contact-info">
   <div>

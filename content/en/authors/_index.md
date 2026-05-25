@@ -30,6 +30,14 @@ title: "People"
     <span class="pi-subtitle"><strong>Chair in Development of Quantum Technologies</strong> | Institut Quantique &amp; Faculté de génie, Université de Sherbrooke</span></p>
     <p>Marco's research focuses on superconducting quantum systems, with an emphasis on circuit quantum electrodynamics, quantum acoustics, high-coherence superconducting devices, and circuit optomechanics. His work has contributed to the quantum control of photonic and phononic degrees of freedom, tunable nonlinear quantum acoustics, high-coherence device engineering, and the observation of collective quantum motion in macroscopic mechanical resonator arrays.</p>
     <p>Before joining the <span class="sherbrooke-green">University of Sherbrooke</span>, Marco completed a PhD in quantum optics at <a href="https://www.chalmers.se" target="_blank" rel="noopener">Chalmers University of Technology</a> with <a href="https://www.chalmers.se/en/persons/delsing/" target="_blank" rel="noopener">Per Delsing</a> and carried out postdoctoral research at <a href="https://www.epfl.ch" target="_blank" rel="noopener">EPFL</a>, working across superconducting circuits, quantum acoustics, high-kinetic-inductance materials, and quantum-limited microwave measurement.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:0.6rem; margin-top:1.25rem;">
+    <a href="/uploads/Scigliuzzo_Marco_CV_v20260525.pdf" target="_blank" rel="noopener" class="apply-cta-btn" 
+  style="margin-top:0; font-size:0.875rem; padding:0.5rem 1.1rem;">Download CV</a>
+    <a href="/uploads/phd_scigliuzzo.pdf" target="_blank" rel="noopener" class="apply-cta-btn" style="margin-top:0; 
+  font-size:0.875rem; padding:0.5rem 1.1rem;">Download PhD Thesis</a>
+    <a href="/uploads/master_scigliuzzo.pdf" target="_blank" rel="noopener" class="apply-cta-btn" style="margin-top:0;
+   font-size:0.875rem; padding:0.5rem 1.1rem;">Download Master Thesis</a>
+  </div>
   </div>
 </div>
 

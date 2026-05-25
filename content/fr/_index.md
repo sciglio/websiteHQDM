@@ -25,6 +25,7 @@ sections:
         <div class="research-cards">
           <div class="research-card">
             <img src="/projects/superconducting-quantum-circuits/featured.png" alt="Circuits supraconducteurs" class="research-card__img">
+            <p class="research-card__caption">Qubit: Fluxonium</p>
             <div class="research-card__body">
               <h3 class="research-card__title">Circuits supraconducteurs</h3>
               <p class="research-card__desc">Conception de dispositifs supraconducteurs à haute cohérence et de qubits pour l'information et la détection quantiques.</p>
@@ -33,6 +34,7 @@ sections:
           </div>
           <div class="research-card">
             <img src="/projects/hybrid-optomechanics/featured.png" alt="Optomécanique hybride" class="research-card__img">
+            <p class="research-card__caption">Electromechanical Examer</p>
             <div class="research-card__body">
               <h3 class="research-card__title">Optomécanique hybride</h3>
               <p class="research-card__desc">Contrôle du mouvement mécanique au niveau quantique à l'aide de circuits supraconducteurs et d'effets collectifs.</p>
@@ -41,6 +43,7 @@ sections:
           </div>
           <div class="research-card">
             <img src="/projects/waveguide-qed/featured.png" alt="QED en guide d'onde" class="research-card__img">
+            <p class="research-card__caption">TWPA implemented by 2000 JJ transmission line</p>
             <div class="research-card__body">
               <h3 class="research-card__title">QED en guide d'onde</h3>
               <p class="research-card__desc">Façonnage de l'interaction lumière-matière dans des guides d'onde supraconducteurs pour l'amplification et la manipulation de photons.</p>
